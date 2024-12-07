@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    position: relative;
+}
+
+.navbar {
+    height: 65px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo:hover {
+    border: 2px solid orange
+}
+
+.nav-logo {
+    height: 32px;
+    width: 125px;
+    background-image: url("IMG_20241207_131712.jpg");
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.border:hover {
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.add1 {
+    color: rgba(226, 232, 239, 0.814);
+    font-size: 0.8rem;
+    margin-left: 11px;
+}
+
+.add-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    height: 40px;
+    width: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 204, 0);
+    align-items: center;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    height: 38px;
+    width: 90%;
+    font-size: 15px;
+    border: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    font-size: 20px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange
+}
+
+.first {
+    display: flex;
+    color: #f4f4ee;
+    font-size: 13px;
+}
+
+.second {
+    color: white;
+    font-weight: 600;
+}
+
+.select {
+    background-color: #0f1111;
+    color: #f4f4ee;
+    border: none;
+}
+
+.cart {
+    width: 70px;
+    color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart1 {
+    font-size: 25px;
+}
+
+.cart2 {
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.outer-panel {
+    height: 45px;
+    background-color: rgba(13, 20, 36, 0.875);
+    display: flex;
+    color: #f3f3f3;
+}
+
+.Menubar {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.Menuicon {
+    margin-left: 5px;
+}
+
+.Menu {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.Menuicon:hover {
+    color: rgb(241, 168, 8);
+}
+
+.Menu:hover {
+    color: rgb(241, 168, 8);
+}
+
+.panel2 {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.anchor:hover {
+    color: rgb(241, 168, 8);
+}
+
+.panel3 {
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.para {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.para:hover {
+    color: rgb(241, 168, 8);
+}
+
+.hero-image {
+    height: 450px;
+    width: 100%;
+    background-image: url("71k7R47IAIL._SX3000_.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    height: 35px;
+    width: 90%;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 320px;
+}
+
+.hero-anchor {
+    text-decoration: none;
+}
+
+.hero-anchor:hover {
+    color: rgb(255, 174, 0);
+}
+
+.section-box {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 380px;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    height: 450px;
+    width: 22%;
+    display: flex;
+    background-color: #f3f3f3f4;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.boxprop {
+    height: 350px;
+    width: 300px;
+    flex-wrap: wrap;
+    box-shadow: 5px 3px;
+}
+
+#box1 {
+    background-image: url("pexels-musaabzayona-25751831.jpg");
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url("controller-7714412_1920.jpg");
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url("e20a6095397f46de675e51c4c10a7fe8.jpg");
+    background-size: cover;
+}
+
+#box4 {
+    background-image: url("CUSTOM Air Force 1.jpeg");
+    background-size: cover;
+}
+
+#box5 {
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+}
+
+#box6 {
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
+
+#box7 {
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+
+#box8 {
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.paraanchor {
+    margin-top: 10px;
+}
+
+.paraanchor:hover {
+    color: rgb(255, 166, 0);
+}
+
+.backtotop {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(13, 20, 36, 0.875);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    height: 150px;
+    width: 100%;
+}
+
+.recommendation {
+    margin-top: 30px;
+}
+
+.signin-button {
+    height: 25px;
+    width: 210px;
+    background-color: rgb(255, 179, 37);
+    border: none;
+    border-radius: 4px;
+}
+
+#back-to-top {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+#back-to-top:hover {
+    color: orange;
+}
+
+.strhere {
+    font-size: 13px;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 1070px;
+    height: 300px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.footnotes {
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    height: 100px;
+    width: 200pxpx;
+    color: #f3f3f3;
+}
+
