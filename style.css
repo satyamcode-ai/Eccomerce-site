@@ -239,7 +239,7 @@
     height: 350px;
     width: 300px;
     flex-wrap: wrap;
-    box-shadow: 8px 7px red spread;
+    box-shadow: 8px 7px red;
 }
 
 #box1 {
